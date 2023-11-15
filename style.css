@@ -34,7 +34,7 @@ header p{
 /*Main*/
 main section{
     display: block;
-    width: 300px;
+    width: 45vw;
     margin: 75px 0px 75px 30px;
     padding: 0px 5px;}
 
@@ -44,7 +44,7 @@ main section{
 
 main p{
     font-family: 'Sriracha', cursive;
-    font-size: 3vh;
+    font-size: 2vw;
     line-height: 2em;}
 
 

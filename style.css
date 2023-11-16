@@ -23,6 +23,7 @@ header h1{
     font-family: 'Passion One', sans-serif;
     font-size: 10vw;
     font-weight: lighter;
+    font-variant: small-caps;
     text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 5px;}
 
 header p{
@@ -33,20 +34,32 @@ header p{
 
 /*Main*/
 main section{
-    display: block;
-    width: 45vw;
-    margin: 75px 0px 75px 30px;
-    padding: 0px 5px;}
-
-.imagem{
-    margin: 200px 0px 200px 30px;
-    background-color: rgba(0, 0, 0, 0.108);}
+    padding: 10vh 0px 10vh 45px;}
 
 main p{
     font-family: 'Sriracha', cursive;
-    font-size: 2vw;
-    line-height: 2em;}
+    font-size: 3vw;
+    line-height: 1.85em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.174);}
 
+.imagem{
+    background-color: lightslategrey;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.263);
+    background-size: cover;
+    background-attachment: fixed;}
+
+.imagem > p{
+    display: inline-block;
+    padding: 0vh 10px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.276);
+    color: white;}
+
+#img1{
+    background-image: url(Imagens/background001.jpg);
+    background-position: center center;}
+#img2{
+    background-image: url(Imagens/background002.jpg);}
 
 
 /*Footer*/
